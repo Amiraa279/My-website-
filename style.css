@@ -1,4 +1,54 @@
 
+/* تنسيق الفورم */
+.form-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ff80bf;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff; /* خلفية بيضاء */
+    color: #333; /* لون النص */
+}
+
+/* إزالة الحدود الافتراضية للنصوص في textarea */
+textarea {
+    resize: vertical; /* يمكن للمستخدم تعديل حجم textarea بشكل عمودي فقط */
+}
+
+button {
+    background-color: #ff80bf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6399b;
+}
+
 /* تنسيق عام للصفحة */
 body {
     font-family: 'Arial', sans-serif;

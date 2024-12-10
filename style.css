@@ -52,6 +52,66 @@ button:hover {
 /* تنسيق عام للصفحة */
 body {
     font-family: 'Arial', sans-serif;
+    background-color: #f9f3f3;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* الهيدر */
+header {
+    background-color: #ff80bf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* تنسيق الفورم */
+.form-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ff80bf;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ff80bf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6399b;
+}
+
+/* تنسيق عام للصفحة */
+body {
+    font-family: 'Arial', sans-serif;
     background-color: #f9f3f3; /* خلفية الصفحة لون بينك فاتح */
     margin: 0;
     padding: 0;
@@ -170,4 +230,4 @@ footer {
         display: block; /* عرض الأزرار بشكل عمودي */
         margin: 10px 0;
     }
-}
+    }

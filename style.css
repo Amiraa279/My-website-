@@ -1,4 +1,33 @@
 
+/* تنسيق عام للصفحة */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f3f3; /* خلفية الصفحة لون بينك فاتح */
+    margin: 0;
+    padding: 0;
+    color: #333; /* لون النص الأساسي */
+}
+
+/* الهيدر */
+header {
+    background-color: #ff80bf; /* خلفية الهيدر */
+    color: white; /* لون النص */
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px; /* زوايا دائرية بالأسفل */
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+/* تنسيق الأزرار */
 .buttons-container {
     text-align: center;
     display: flex;
@@ -24,154 +53,6 @@
     color: white;
 }
 
-/* تصميم الأزرار */
-.buttons-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.buttons-container button {
-    background-color: white; /* لون الخلفية */
-    color: #ff66b2; /* لون النص */
-    border: 2px solid #ff66b2; /* إطار */
-    padding: 10px 20px; /* المسافة داخل الزر */
-    font-size: 16px; /* حجم الخط */
-    border-radius: 5px; /* الزوايا دائرية */
-    margin: 5px; /* مسافة بين الأزرار */
-    cursor: pointer;
-    transition: all 0.3s ease; /* تأثير عند التمرير */
-}
-
-.buttons-container button:hover {
-    background-color: #ff66b2; /* تغيير الخلفية عند المرور */
-    color: white; /* تغيير لون النص عند المرور */
-}
-
-/* تنسيق عام للصفحة */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f3f3; /* خلفية الصفحة لون بينك فاتح */
-    margin: 0;
-    padding: 0;
-    color: #333; /* لون النص الأساسي */
-}
-
-/* الهيدر */
-header {
-    background-color: #ff80bf; /* خلفية الهيدر */
-    color: white; /* لون النص */
-    padding: 20px;
-    text-align: center;
-    border-radius: 0 0 10px 10px; /* زوايا دائرية بالأسفل */
-}
-
-header h1 {
-    font-size: 36px;
-    margin: 0;
-}
-
-header p {
-    font-size: 18px;
-    margin: 10px 0 0 0;
-}
-
-/* أزرار الصفحات باللون الأبيض */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    margin: 20px 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 5px;
-}
-
-nav ul li a {
-    background-color: white; /* تغيير لون الزر إلى الأبيض */
-    color: #ff80bf; /* لون النص بينك غامق */
-    padding: 10px 20px; /* حجم الزر */
-    border-radius: 5px; /* زوايا دائرية */
-    text-decoration: none; /* إزالة التسطير */
-    font-size: 16px; /* حجم النص */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* تأثير الحركة */
-    border: 2px solid #ff80bf; /* إضافة إطار باللون بينك */
-}
-
-nav ul li a:hover {
-    background-color: #ff80bf; /* تغيير اللون عند التمرير */
-    color: white; /* تغيير لون النص إلى الأبيض عند التمرير */
-    transform: scale(1.1); /* تكبير الزر قليلاً */
-}
-
-/* أزرار أخرى (مثل "اكتشف المزيد") */
-.discover-btn {
-    background-color: white; /* لون الخلفية */
-    color: #ff80bf; /* لون النص بينك غامق */
-    padding: 10px 20px; /* حجم الزر */
-    border-radius: 5px; /* زوايا دائرية */
-    text-align: center;
-    cursor: pointer;
-    display: inline-block;
-    text-decoration: none; /* إزالة التسطير */
-    font-size: 18px; /* حجم النص */
-    margin: 20px auto; /* توسيط الزر */
-    border: 2px solid #ff80bf; /* إضافة إطار باللون بينك */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* تأثير الحركة */
-}
-
-.discover-btn:hover {
-    background-color: #ff80bf; /* تغيير اللون عند التمرير */
-    color: white; /* تغيير لون النص إلى الأبيض عند التمرير */
-    transform: scale(1.1); /* تكبير الزر قليلاً */
-}
-
-/* الفوتر */
-footer {
-    background-color: #ff80bf; /* خلفية الفوتر */
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px 10px 0 0; /* زوايا دائرية بالأعلى */
-}
-
-/* دعم استجابة الشاشة */
-@media (max-width: 768px) {
-    nav ul li {
-        display: block; /* عرض الأزرار بشكل عمودي */
-        margin: 10px 0;
-    }
-}
-
-/* تنسيق عام للصفحة */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f3f3; /* خلفية الصفحة لون بينك فاتح */
-    margin: 0;
-    padding: 0;
-    color: #333; /* لون النص الأساسي */
-}
-
-/* الهيدر */
-header {
-    background-color: #ff80bf; /* خلفية الهيدر */
-    color: white; /* لون النص */
-    padding: 20px;
-    text-align: center;
-    border-radius: 0 0 10px 10px; /* زوايا دائرية بالأسفل */
-}
-
-header h1 {
-    font-size: 36px;
-    margin: 0;
-}
-
-header p {
-    font-size: 18px;
-    margin: 10px 0 0 0;
-}
-
 /* أزرار الصفحات */
 nav ul {
     list-style-type: none;
@@ -186,99 +67,6 @@ nav ul li {
 }
 
 nav ul li a {
-    background-color: #ff80bf; /* لون الزر */
-    color: white; /* لون النص */
-    padding: 10px 20px; /* حجم الزر */
-    border-radius: 5px; /* زوايا دائرية */
-    text-decoration: none; /* إزالة التسطير */
-    font-size: 16px; /* حجم النص */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* تأثير الحركة */
-}
-
-nav ul li a:hover {
-    background-color: #e6399b; /* لون عند التمرير */
-    transform: scale(1.1); /* تكبير الزر قليلاً */
-}
-
-/* أزرار أخرى (مثل "اكتشف المزيد") */
-.discover-btn {
-    background-color: #ff80bf; /* لون الخلفية */
-    color: white; /* لون النص */
-    padding: 10px 20px; /* حجم الزر */
-    border-radius: 5px; /* زوايا دائرية */
-    text-align: center;
-    cursor: pointer;
-    display: inline-block;
-    text-decoration: none; /* إزالة التسطير */
-    font-size: 18px; /* حجم النص */
-    margin: 20px auto; /* توسيط الزر */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* تأثير الحركة */
-}
-
-.discover-btn:hover {
-    background-color: #e6399b; /* لون عند التمرير */
-    transform: scale(1.1); /* تكبير الزر قليلاً */
-}
-
-/* الفوتر */
-footer {
-    background-color: #ff80bf; /* خلفية الفوتر */
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px 10px 0 0; /* زوايا دائرية بالأعلى */
-}
-
-/* دعم استجابة الشاشة */
-@media (max-width: 768px) {
-    nav ul li {
-        display: block; /* عرض الأزرار بشكل عمودي */
-        margin: 10px 0;
-    }
-}
-
-/* تنسيق عام للصفحة */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f3f3; /* خلفية الصفحة لون بينك فاتح */
-    margin: 0;
-    padding: 0;
-    color: #333; /* لون النص الأساسي */
-}
-
-/* الهيدر */
-header {
-    background-color: #ff80bf; /* خلفية الهيدر */
-    color: white; /* لون النص */
-    padding: 20px;
-    text-align: center;
-    border-radius: 0 0 10px 10px; /* زوايا دائرية بالأسفل */
-}
-
-header h1 {
-    font-size: 36px;
-    margin: 0;
-}
-
-header p {
-    font-size: 18px;
-    margin: 10px 0 0 0;
-}
-
-/* أزرار الصفحات بلون بينك فاتح */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    margin: 20px 0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 5px;
-}
-
-nav ul li a {
     background-color: #ff80bf; /* اللون الأساسي للأزرار بينك فاتح */
     color: white; /* لون النص الأبيض */
     padding: 10px 20px; /* حجم الزر */
@@ -333,5 +121,3 @@ footer {
         margin: 10px 0;
     }
 }
-
-    

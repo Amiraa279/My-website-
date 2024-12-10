@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حجز خدمة أو استفسار</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>حجز خدمة أو استفسار</h1>
+            <p>إذا كنت ترغب في حجز خدمة تطوير مواقع أو ألعاب، أو لديك استفسار حول مشروع معين، يمكنك ملء النموذج أدناه وسأكون سعيدًا بالتواصل معك.</p>
+        </div>
+    </header>
+
+    <!-- Form Section -->
+    <section class="form-section">
+        <div class="form-container">
+            <h2>املأ النموذج لحجز الخدمة أو الاستفسار</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" placeholder="أدخل اسمك" required><br>
+
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required><br>
+
+                <label for="phone">رقم الهاتف:</label>
+                <input type="tel" id="phone" name="phone" placeholder="أدخل رقم هاتفك" required><br>
+
+                <label for="service">الخدمة المطلوبة:</label>
+                <select id="service" name="service" required><br>
+                    <option value="website">تطوير موقع ويب</option><br>
+                    <option value="game">تطوير لعبة</option><br>
+                    <option value="other">خدمة أخرى</option><br>
+                </select>
+
+              <br>   <label for="message">الرسالة أو التفاصيل:</label><br>
+                <textarea id="message" name="message" placeholder="أدخل التفاصيل أو استفسارك" required></textarea><br>
+
+                <button type="submit" class="submit-button">إرسال</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة لـ Amira Dev 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

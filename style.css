@@ -1,0 +1,146 @@
+
+/* تنسيق الصفحة */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* الهيدر */
+header {
+    background-color: #ff66b2; /* لون الخلفية */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* تنسيق الفقرات */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* أزرار الصفحات */
+.page-button {
+    background-color: #ff66b2; /* لون الزر */
+    color: white;
+    padding: 8px 15px; /* تقليل الحجم */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px; /* تقليل حجم الخط */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px; /* تقليل المسافة بين الأزرار */
+}
+
+.page-button:hover {
+    background-color: #e6007e; /* تغيير اللون عند المرور فوق الزر */
+}
+
+/* تنسيق النموذج */
+.form-section {
+    padding: 40px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: #ff66b2; /* لون الزر */
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #e6007e; /* تغيير اللون عند المرور فوق الزر */
+}
+
+/* تنسيق مستطيل "اكتشف المزيد" */
+.discover-btn {
+    background-color: #ff66b2; /* لون الخلفية */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.discover-btn:hover {
+    background-color: #e6007e; /* اللون عند المرور فوق الزر */
+}
+
+/* تنسيق الفوتر */
+footer {
+    background-color: #ff66b2; /* لون الفوتر */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* تنسيق أزرار تغيير اللغة */
+.language-selector {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.language-selector button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff66b2;
+    color: white;
+    border-radius: 5px;
+}
+
+.language-selector button:hover {
+    background-color: #e6007e;
+}
